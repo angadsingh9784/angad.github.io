@@ -1,0 +1,38 @@
+img{
+
+width: 300px;
+length:300px;
+margin-left:22px;
+border-radius:20px;
+box-shadow: 20px;
+
+}
+
+img:hover {
+border-radius:30%;
+opacity: 1;
+
+
+}
+
+.pro{
+background-color: aquamarine;
+width:100%;
+margin-bottom: 50px;
+text-align: center;
+background-color:#ccc;
+
+}
+  
+.pro1{
+
+
+    float:left;
+}  
+ 
+h3{
+
+
+    font-family:cursive;
+    font-weight: normal; 
+}

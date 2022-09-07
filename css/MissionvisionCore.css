@@ -1,0 +1,39 @@
+/*management */
+.javscri{
+	font-display: none;
+	font-weight: bold;
+	
+	pading:20px;
+	
+    width:100%;
+
+}
+
+.javscri a:link{
+
+
+    color: rgb(0,0,140);
+text-decoration: none;
+
+margin-left:16%;
+margin-top:100px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size:23px;
+border-bottom:5px solid rgba(0, 0, 140, 0.329);
+border-top:5px solid rgba(0, 0, 140, 0.329);
+border-left:5px solid rgba(0, 0, 140, 0.329);
+border-right:5px solid rgba(0, 0, 140, 0.329);
+}
+
+.divs{
+
+font-size:25px;
+width:60%;
+background-color: rgba(7, 7, 7, 0.075);
+margin-top: 50px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin-bottom:50px;
+margin-left:auto;
+margin-right:auto;
+padding: 15px;
+}
