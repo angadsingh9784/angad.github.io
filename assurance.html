@@ -14,6 +14,11 @@
 	.fname{
 		margin-left:50%;
 	}
+	
+	.abc{
+		width:100px;
+		height:50px;
+	}
 
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -31,7 +36,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     }
     
     input[type=submit] {
-      background-color: #04AA6D;
+      background-color: #339933;
       color: black;
       padding: 12px 20px;
       border: none;
@@ -40,12 +45,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
     }
     
     input[type=submit]:hover {
-      background-color: #800080;
+      background-color: #339933;
     }
     
     .container1 {
       border-radius: 5px;
-      background-color: #800000;
+      background-color: #339933;
       padding: 20px;
       position: relative;
       width: 80%;
@@ -53,6 +58,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       font-size: 18px;
 
     }
+	
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
@@ -419,24 +425,24 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <div class="container1">
   <form action="/action_page.php">
    
-    <input type="text" id="fname" name="firstname" placeholder="Name">
+    <input type="text" class="abc"  name="firstname" placeholder="Name">
 
 
 
 
-    <input type="text" id="lname" name="lastname" placeholder="Class">
+    <input type="text" class="abc"  id="lname" name="lastname" placeholder="Class">
 
   
-    <input type="text" id="lname" name="lastname" placeholder="Skill">
+    <input type="text" class="abc" id="lname" name="lastname" placeholder="Skill">
 	  
  
-    <input type="text" id="lname" name="lastname" placeholder="Email Id.">
+    <input type="text" class="abc"  id="lname" name="lastname" placeholder="Email Id.">
 
    
-    <input type="text" id="lname" name="lastname" placeholder="Phone">
+    <input type="text"  class="abc"  id="lname" name="lastname" placeholder="Phone">
 
     
-    <select name = "dropdown">
+    <select name = "dropdown" class="abc" >
       <option value = "Computer Architecture" selected>BCA</option>
       <option value = "Java">BVOC SD</option>
       <option value = "Discrete Mathematics">BSC</option>
@@ -448,7 +454,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <input type="date" id="start" name="trip-start"
        value="2018-07-22"
-       min="2018-01-01" max="2018-12-31">
+       min="2000-01-01" max="2022-12-31">
 
 
    
